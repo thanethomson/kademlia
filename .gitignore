@@ -6,7 +6,7 @@
 *.dylib
 
 # Mac/Linux executable
-alien-invasion
+kademlia
 
 # Test binary, build with `go test -c`
 *.test
