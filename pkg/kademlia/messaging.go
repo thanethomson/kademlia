@@ -25,7 +25,7 @@ type NodeRequest struct {
 	Params interface{}     `json:"params,omitempty"` // The dynamically deserialised message body.
 
 	// The timestamp for when this request was sent.
-	sent time.Time `json:"-"`
+	sent time.Time
 }
 
 // NodeResponseType allows us to represent our different responses as constants.
