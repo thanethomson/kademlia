@@ -6,7 +6,7 @@
 *.dylib
 
 # Mac/Linux executable
-./kademlia
+/kademlia
 
 # Test binary, build with `go test -c`
 *.test
